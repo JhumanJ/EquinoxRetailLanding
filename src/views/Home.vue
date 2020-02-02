@@ -1,18 +1,36 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="home">
+    <Hero />
+    <ROIBlock />
+    <RisksBlock/>
+    <Subscribe/>
+    <Footer/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue';
+import Hero from '@/components/Home/Hero.vue';
+import ROIBlock from '@/components/Home/Blocks/ROIBlock.vue';
+import RisksBlock from '@/components/Home/Blocks/RisksBlock.vue';
+import Subscribe from '@/components/Home/Subscribe.vue';
+import Footer from '@/components/Home/Footer.vue';
 
 export default {
   name: 'home',
   components: {
-    HelloWorld,
+      Hero,
+      ROIBlock,
+      RisksBlock,
+      Subscribe,
+      Footer
   },
 };
 </script>
+
+<style scoped lang="scss">
+  #home {
+    margin-top: -74px;
+  }
+</style>
+
