@@ -39,23 +39,23 @@
 
                     <div class="col-12 my-4 tags">
                         <div>
-                            <button class="btn mx-2 mt-2 btn-pill btn-outline-success">
+                            <router-link @click.native="$scrollToTop" to="/best-managers"  class="btn mx-2 mt-2 btn-pill btn-outline-success">
                                 Private Equity
-                            </button>
-                            <button class="btn mx-2 mt-2 btn-pill btn-soft-success">
+                            </router-link>
+                            <router-link @click.native="$scrollToTop" to="/best-managers"  class="btn mx-2 mt-2 btn-pill btn-soft-success">
                                 Pourquoi de telles performances
-                            </button>
-                            <button class="btn mx-2 mt-2 btn-pill btn-soft-success">
+                            </router-link>
+                            <router-link @click.native="$scrollToTop" to="/best-managers"  class="btn mx-2 mt-2 btn-pill btn-soft-success">
                                 Private Equity
-                            </button>
+                            </router-link>
                         </div>
                         <div class="mt-3">
-                            <button class="btn mx-2 mt-2 btn-pill btn-outline-success">
+                            <router-link @click.native="$scrollToTop" to="/best-managers"  class="btn mx-2 mt-2 btn-pill btn-outline-success">
                                 L’approche innovate d’Equinox
-                            </button>
-                            <button class="btn mx-2 mt-2 btn-pill btn-soft-success">
+                            </router-link>
+                            <router-link @click.native="$scrollToTop" to="/best-managers"  class="btn mx-2 mt-2 btn-pill btn-soft-success">
                                 Les leviers de la surperformance
-                            </button>
+                            </router-link>
                         </div>
                     </div>
                 </div>

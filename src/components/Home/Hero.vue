@@ -24,7 +24,7 @@
         <!-- End SVG Bottom Shape -->
 
         <div class="card-container pb-4">
-            <div class="card card-reason mt-3 mx-2 border-0 shadow-sm" v-for="(reason, index) in reasons"
+            <a href="#" v-scroll-to="reason.target" class="card card-reason mt-3 mx-2 border-0 shadow-sm" v-for="(reason, index) in reasons"
                  :key="reason.title">
                 <div class="card-body text-center">
                     <p class="title">
@@ -35,7 +35,7 @@
                 <div class="index-bg">
                     0{{index + 1}}
                 </div>
-            </div>
+            </a>
         </div>
 
     </div>
@@ -49,25 +49,32 @@
             return {
                 reasons: [
                     {
-                        title: "Une espérance de rendement optimale"
+                        title: "Une espérance de rendement optimale",
+                        target: "#roi-block"
                     },
                     {
-                        title: "Des risques faibles et maîtrisés"
+                        title: "Des risques faibles et maîtrisés",
+                        target: "#risks-block"
                     },
                     {
-                        title: "Une sélection des meilleurs fonds mondiaux"
+                        title: "Une sélection des meilleurs fonds mondiaux",
+                        target: "#roi-block"
                     },
                     {
-                        title: "La confiance de grands noms de la gestion de fortune"
+                        title: "La confiance de grands noms de la gestion de fortune",
+                        target: "#roi-block"
                     },
                     {
-                        title: "Le soutien d’investisseurs de premier plan"
+                        title: "Le soutien d’investisseurs de premier plan",
+                        target: "#roi-block"
                     },
                     {
-                        title: "Financer l’économie réelle"
+                        title: "Financer l’économie réelle",
+                        target: "#roi-block"
                     },
                     {
-                        title: "Investir facilement et en toute transparence"
+                        title: "Investir facilement et en toute transparence",
+                        target: "#roi-block"
                     }
                 ]
             }

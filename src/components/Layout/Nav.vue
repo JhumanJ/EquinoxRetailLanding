@@ -1,13 +1,9 @@
 <template>
     <nav :class="['navbar sticky-top navbar-light py-3 bg-light justify-content-between'
         ,{'transparent':transparent}]">
-        <!--<div id="nav">-->
-        <!--<router-link to="/">Home</router-link> |-->
-        <!--<router-link to="/about">About</router-link>-->
-        <!--</div>-->
-        <a class="navbar-brand logo montserrat">Equinox</a>
+        <router-link @click.native="$scrollToTop" to="/" class="navbar-brand logo montserrat">Equinox</router-link>
         <div class="right-part">
-            <button type="button" class="btn btn-suscribe btn-soft-success">Souscrire</button>
+            <router-link @click.native="$scrollToTop" to="/#subscribe" href="#subscribe" v-scroll-to="'#subscribe'" class="btn btn-suscribe btn-soft-success">Souscrire</router-link>
         </div>
 
     </nav>
@@ -17,22 +13,32 @@
     export default {
         name: 'Nav',
         props: {},
+        computed: {
+            canBeTransparent: function () {
+                return this.$route.meta.hasOwnProperty("navCanBeTransparent") && this.$route.meta.navCanBeTransparent;
+            }
+        },
         data() {
             return {
-                transparent: true
+                transparent: this.canBeTransparent
             }
         },
         methods: {
             handleScroll(event) {
+                if (!this.canBeTransparent) return;
                 this.transparent = (window.scrollY < 58);
             }
         },
         created() {
-            window.addEventListener('scroll', this.handleScroll);
-            this.handleScroll();
+            if (this.canBeTransparent) {
+                window.addEventListener('scroll', this.handleScroll);
+                this.handleScroll();
+            }
         },
         destroyed() {
-            window.removeEventListener('scroll', this.handleScroll);
+            if (this.canBeTransparent) {
+                window.removeEventListener('scroll', this.handleScroll);
+            }
         }
     };
 </script>

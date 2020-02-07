@@ -76,6 +76,7 @@ $danger-lighter: $red-lighter !default;
 // Social Network Colors
 $secondary-colors: () !default;
 $secondary-colors: map-merge((
+        "purple": $facebook,
         "facebook": $facebook,
         "google": $google,
         "twitter": $twitter,
@@ -88,8 +89,7 @@ $secondary-colors: map-merge((
 $theme-colors: () !default;
 $theme-colors: map-merge((
         "white": $white,
-        "indigo": $indigo,
-        "purple": $purple
+        "indigo": $indigo
 ), $theme-colors);
 // stylelint-enable
 

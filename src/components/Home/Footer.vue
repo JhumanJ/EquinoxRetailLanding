@@ -67,7 +67,7 @@
                         <ul class="list-group list-group-flush list-group-borderless mb-0">
                             <li class="list-group-item">+1 (062) 109-9222</li>
                             <li class="list-group-item">
-                                <a class="text-purple" href="mailto:support@htmlstream.com">contact@quinox.com</a>
+                                <a class="text-purple" href="mailto:support@htmlstream.com">contact@equinox.com</a>
                             </li>
                             <li class="list-group-item">153 Williamson Plaza, Maggieberg, MT 09514</li>
                         </ul>

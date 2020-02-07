@@ -19,14 +19,14 @@
                     </div>
 
                     <div class="col-12 row justify-content-center align-items-center">
-                        <div class="col-md-6 col-lg-5 mb-7 mb-md-0">
+                        <div class="col-md-6 col-lg-7 mb-7 mb-md-0">
                             <h4>Diversifier, règle d’or de l’investissement, est aussi une exigence en private equity</h4>
                             <p>
                                 À la différence de l’investissement dans un feeder, investir dans des fonds Equinox permet une diversification très aboutie, gage de risques faibles et maîtrisés.
                             </p>
                         </div>
 
-                        <div id="SVGellipseMockup" class="col-md-6" style="">
+                        <div id="SVGellipseMockup" class="col-md-6 col-lg-5" style="">
                             <!-- SVG Mockup -->
                             <figure class="ie-ellipse-mockup">
                                 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 614.8 747.7" style="enable-background:new 0 0 614.8 747.7;" xml:space="preserve" class="injected-svg js-svg-injector" data-img-paths="[
@@ -53,26 +53,26 @@
 
                     <div class="col-12 my-4 tags">
                         <div>
-                            <button class="btn mx-2 mt-2 btn-pill btn-outline-success">
+                            <router-link @click.native="$scrollToTop" to="/best-managers" class="btn mx-2 mt-2 btn-pill btn-outline-success">
                                 Private Equity
-                            </button>
-                            <button class="btn mx-2 mt-2 btn-pill btn-soft-success">
+                            </router-link>
+                            <router-link @click.native="$scrollToTop" to="/best-managers" class="btn mx-2 mt-2 btn-pill btn-soft-success">
                                 Risques d’un investissement en private equity
-                            </button>
-                            <button class="btn mx-2 mt-2 btn-pill btn-soft-success">
+                            </router-link>
+                            <router-link @click.native="$scrollToTop" to="/best-managers" class="btn mx-2 mt-2 btn-pill btn-soft-success">
                                 Investir dans un feeder
-                            </button>
+                            </router-link>
                         </div>
                         <div class="mt-3">
-                            <button class="btn mx-2 mt-2 btn-pill btn-outline-success">
+                            <router-link @click.native="$scrollToTop" to="/best-managers" class="btn mx-2 mt-2 btn-pill btn-outline-success">
                                 L’approche innovate d’Equinox
-                            </button>
-                            <button class="btn mx-2 mt-2 btn-pill btn-soft-success">
+                            </router-link>
+                            <router-link @click.native="$scrollToTop" to="/best-managers" class="btn mx-2 mt-2 btn-pill btn-soft-success">
                                 Investir dans des portefeuilles diversifiés
-                            </button>
-                            <button class="btn mx-2 mt-2 btn-pill btn-soft-success">
+                            </router-link>
+                            <router-link @click.native="$scrollToTop" to="/best-managers" class="btn mx-2 mt-2 btn-pill btn-soft-success">
                                 Investir par millésime et pourquoi
-                            </button>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -101,6 +101,7 @@
     #risks-block {
         position: relative;
         background-color: $gray-200;
+        z-index: 0;
 
         .block-number {
             font-size: 50rem;
@@ -114,7 +115,7 @@
             top: 0px;
             line-height: 50rem;
             text-align: left;
-            z-index: -1;
+            z-index: 0;
 
             @include media-breakpoint-down(xs) {
                 font-size: 30rem;
