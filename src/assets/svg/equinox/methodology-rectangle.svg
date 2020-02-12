@@ -1,0 +1,235 @@
+<svg width="952" height="650" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="a">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="c">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="e">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="g">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="i">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="k">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="m">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="o">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="q">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="s">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="u">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="w">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-30%" y="-30%" width="160%" height="160%" filterUnits="objectBoundingBox" id="y">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 0 0.930140399 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <filter x="-35.5%" y="-35.5%" width="171%" height="171%" filterUnits="objectBoundingBox" id="A">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+            <feOffset in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+            <feColorMatrix values="0 0 0 0 0.956862745 0 0 0 0 0.964705882 0 0 0 0 0.980392157 0 0 0 1 0" in="shadowBlurOuter1"/>
+        </filter>
+        <circle id="b" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="d" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="f" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="h" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="j" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="l" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="n" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="p" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="r" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="t" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="v" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="x" cx="38.5" cy="38.5" r="38.5"/>
+        <circle id="z" cx="487" cy="334" r="100"/>
+        <circle id="B" cx="486.5" cy="333.5" r="84.5"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g transform="translate(428 67)">
+            <use fill="#000" filter="url(#a)" xlink:href="#b"/>
+            <use fill="#FFF" xlink:href="#b"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(428 67)">
+            <tspan x="32.86" y="49">1</tspan>
+        </text>
+        <g transform="translate(553 98)">
+            <use fill="#000" filter="url(#c)" xlink:href="#d"/>
+            <use fill="#FFF" xlink:href="#d"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(553 98)">
+            <tspan x="29.935" y="49">2</tspan>
+        </text>
+        <g transform="translate(630 185)">
+            <use fill="#000" filter="url(#e)" xlink:href="#f"/>
+            <use fill="#FFF" xlink:href="#f"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(630 185)">
+            <tspan x="29.425" y="49">3</tspan>
+        </text>
+        <g transform="translate(303 98)">
+            <use fill="#000" filter="url(#g)" xlink:href="#h"/>
+            <use fill="#FFF" xlink:href="#h"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(303 98)">
+            <tspan x="24.295" y="49">12</tspan>
+        </text>
+        <g transform="translate(303 484)">
+            <use fill="#000" filter="url(#i)" xlink:href="#j"/>
+            <use fill="#FFF" xlink:href="#j"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(303 484)">
+            <tspan x="28.78" y="49">8</tspan>
+        </text>
+        <g transform="translate(630 399)">
+            <use fill="#000" filter="url(#k)" xlink:href="#l"/>
+            <use fill="#FFF" xlink:href="#l"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(630 399)">
+            <tspan x="28.75" y="49">5</tspan>
+        </text>
+        <g transform="translate(656 292)">
+            <use fill="#000" filter="url(#m)" xlink:href="#n"/>
+            <use fill="#FFF" xlink:href="#n"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(656 292)">
+            <tspan x="28.345" y="49">4</tspan>
+        </text>
+        <g transform="translate(201 292)">
+            <use fill="#000" filter="url(#o)" xlink:href="#p"/>
+            <use fill="#FFF" xlink:href="#p"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(201 292)">
+            <tspan x="23.08" y="49">10</tspan>
+        </text>
+        <g transform="translate(226 185)">
+            <use fill="#000" filter="url(#q)" xlink:href="#r"/>
+            <use fill="#FFF" xlink:href="#r"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(226 185)">
+            <tspan x="27.22" y="49">11</tspan>
+        </text>
+        <g transform="translate(218 399)">
+            <use fill="#000" filter="url(#s)" xlink:href="#t"/>
+            <use fill="#FFF" xlink:href="#t"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(218 399)">
+            <tspan x="29.275" y="49">9</tspan>
+        </text>
+        <g transform="translate(553 483)">
+            <use fill="#000" filter="url(#u)" xlink:href="#v"/>
+            <use fill="#FFF" xlink:href="#v"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(553 483)">
+            <tspan x="28.945" y="49">6</tspan>
+        </text>
+        <g transform="translate(428 522)">
+            <use fill="#000" filter="url(#w)" xlink:href="#x"/>
+            <use fill="#FFF" xlink:href="#x"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF" transform="translate(428 522)">
+            <tspan x="30.475" y="49">7</tspan>
+        </text>
+        <g transform="translate(-20 -3)">
+            <use fill="#000" filter="url(#y)" xlink:href="#z"/>
+            <use fill="#FFF" xlink:href="#z"/>
+        </g>
+        <g transform="translate(-20 -3)">
+            <use fill="#000" filter="url(#A)" xlink:href="#B"/>
+            <use fill="#FFF" xlink:href="#B"/>
+        </g>
+        <text font-family="Poppins-Bold, Poppins" font-size="20" font-weight="bold" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="434.08" y="327">Scorecard </tspan> <tspan x="425.95" y="355">des gérants</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="394.769" y="15">Performance passée long </tspan> <tspan x="403.036" y="35">terme et son écart type</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="680" y="116">Performance et distribution de la </tspan> <tspan x="680" y="136">performance entre associés</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="757" y="221">Stratégie d’origination des </tspan> <tspan x="757" y="241">transactions</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="783" y="329">Réputation du gérant (vis-</tspan> <tspan x="783" y="349">à-vis des managers)</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="757" y="446">Stratégie du gérant</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="680" y="538">Attractivité du segment de marché </tspan> <tspan x="680" y="558">sur lequel est positionné le gérant</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="383.159" y="649">Qualité du portefeuille actuel</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="133.058" y="538">Vitesse de déploiment </tspan> <tspan x="219.928" y="558">historique</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="20.624" y="436">Taille du nouveau fonds et </tspan> <tspan x="56.73" y="456">cohérence historique</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="59.022" y="329">Discipline d’entrée </tspan> <tspan x="111.956" y="349">et de sortie</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="145.286" y="221">Termes et </tspan> <tspan x="75.314" y="241">conditions du fonds</tspan>
+        </text>
+        <text font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436" transform="translate(-20 -3)">
+            <tspan x="71.716" y="116">Répartitions du carried interest </tspan> <tspan x="86.794" y="136">entre générations d’associés</tspan>
+        </text>
+    </g>
+</svg>

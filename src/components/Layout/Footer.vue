@@ -79,7 +79,7 @@
 
         <div class="d-flex justify-content-between align-items-center py-7">
             <!-- Copyright -->
-            <p class="small text-muted mb-0">© Equinox. 2019</p>
+            <p class="small text-muted mb-0">© Equinox. 2020</p>
             <!-- End Copyright -->
 
             <!-- Social Networks -->

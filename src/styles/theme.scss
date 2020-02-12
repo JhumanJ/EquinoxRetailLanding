@@ -1,0 +1,3 @@
+$primary: #367dff;
+$primary-darker: scale_color($primary, $lightness: -50%);
+$primary-lighter: scale_color($primary, $lightness: 50%);

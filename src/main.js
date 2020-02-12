@@ -4,16 +4,16 @@ import router from './router';
 import store from './store';
 
 import VueScrollTo from 'vue-scrollto';
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
+import { BootstrapVue } from 'bootstrap-vue'
+import VueCarousel from 'vue-carousel';
 
 import './styles/main.scss';
 
 Vue.config.productionTip = false;
-Vue.use(ElementUI);
-Vue.use(VueScrollTo);
 
-Vue.prototype.$scrollToTop = () => window.scrollTo(0,0);
+Vue.use(VueScrollTo);
+Vue.use(BootstrapVue);
+Vue.use(VueCarousel);
 
 new Vue({
   router,

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="948px" height="650px" viewBox="0 0 948 650" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-3" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-5" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-7" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-9" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-11" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-12">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-13" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-14">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-15" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-16">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-17" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-18">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-19" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-20">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-21" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-22">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-23" cx="38.5" cy="38.5" r="38.5"></circle>
+        <filter x="-77.9%" y="-77.9%" width="255.8%" height="255.8%" filterUnits="objectBoundingBox" id="filter-24">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-25" cx="487" cy="334" r="100"></circle>
+        <filter x="-30.0%" y="-30.0%" width="160.0%" height="160.0%" filterUnits="objectBoundingBox" id="filter-26">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-27" cx="486.5" cy="333.5" r="84.5"></circle>
+        <filter x="-35.5%" y="-35.5%" width="171.0%" height="171.0%" filterUnits="objectBoundingBox" id="filter-28">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.956862745   0 0 0 0 0.964705882   0 0 0 0 0.980392157  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-255.000000, -560.000000)" id="Group">
+            <g transform="translate(234.000000, 557.000000)">
+                <g id="Group-5" transform="translate(448.000000, 70.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <text id="1" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="33.16" y="49">1</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy" transform="translate(573.000000, 101.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                    <text id="2" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="30.01" y="49">2</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-2" transform="translate(650.000000, 188.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                    <text id="3" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="29.425" y="49">3</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-8" transform="translate(323.000000, 101.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                    </g>
+                    <text id="12" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="24.67" y="49">12</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-9" transform="translate(323.000000, 487.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                    </g>
+                    <text id="8" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="28.825" y="49">8</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-3" transform="translate(650.000000, 402.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    </g>
+                    <text id="5" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="28.855" y="49">5</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-6" transform="translate(676.000000, 295.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    </g>
+                    <text id="4" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="28.42" y="49">4</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-7" transform="translate(221.000000, 295.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    </g>
+                    <text id="10" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="23.5" y="49">10</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-10" transform="translate(246.000000, 188.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                    </g>
+                    <text id="11" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="27.82" y="49">11</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-11" transform="translate(238.000000, 402.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                    </g>
+                    <text id="9" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="29.485" y="49">9</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-4" transform="translate(573.000000, 486.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-22)" xlink:href="#path-21"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-21"></use>
+                    </g>
+                    <text id="6" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="29.08" y="49">6</tspan>
+                    </text>
+                </g>
+                <g id="Group-5-Copy-5" transform="translate(448.000000, 525.000000)">
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-24)" xlink:href="#path-23"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-23"></use>
+                    </g>
+                    <text id="7" font-family="Poppins-Bold, Poppins" font-size="30" font-weight="bold" fill="#367DFF">
+                        <tspan x="30.85" y="49">7</tspan>
+                    </text>
+                </g>
+                <g id="Oval-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-26)" xlink:href="#path-25"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-25"></use>
+                </g>
+                <g id="Oval-Copy-11">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-28)" xlink:href="#path-27"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-27"></use>
+                </g>
+                <text id="Scorecard-des-gérant" font-family="Poppins-Bold, Poppins" font-size="20" font-weight="bold" fill="#2D3436">
+                    <tspan x="433.85" y="327">Scorecard </tspan>
+                    <tspan x="425.95" y="355">des gérants</tspan>
+                </text>
+                <text id="Performance-passée-l" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="394.748" y="15">Performance passée long </tspan>
+                    <tspan x="402.959" y="35">terme et son écart type</tspan>
+                </text>
+                <text id="Performance-et-distr" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="680" y="116">Performance et distribution de la </tspan>
+                    <tspan x="680" y="136">performance entre associés</tspan>
+                </text>
+                <text id="Stratégie-d’originat" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="757" y="221">Stratégie d’origination des </tspan>
+                    <tspan x="757" y="241">transactions</tspan>
+                </text>
+                <text id="Réputation-du-gérant" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="783" y="329">Réputation du gérant (vis-</tspan>
+                    <tspan x="783" y="349">à-vis des managers)</tspan>
+                </text>
+                <text id="Stratégie-du-gérant" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="757" y="446">Stratégie du gérant</tspan>
+                </text>
+                <text id="Attractivité-du-segm" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="680" y="538">Attractivité du segment de marché </tspan>
+                    <tspan x="680" y="558">sur lequel est positionné le gérant</tspan>
+                </text>
+                <text id="Qualité-du-portefeui" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="383.46" y="649">Qualité du portefeuille actuel</tspan>
+                </text>
+                <text id="Vitesse-de-déploimen" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="133.688" y="538">Vitesse de déploiment </tspan>
+                    <tspan x="219.9" y="558">historique</tspan>
+                </text>
+                <text id="Taille-du-nouveau-fo" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="21.926" y="436">Taille du nouveau fonds et </tspan>
+                    <tspan x="56.128" y="456">cohérence historique</tspan>
+                </text>
+                <text id="Discipline-d’entrée" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="59.792" y="329">Discipline d’entrée </tspan>
+                    <tspan x="112.124" y="349">et de sortie</tspan>
+                </text>
+                <text id="Termes-et-conditions" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="145.454" y="221">Termes et </tspan>
+                    <tspan x="75.636" y="241">conditions du fonds</tspan>
+                </text>
+                <text id="Répartitions-du-carr" font-family="Poppins-SemiBold, Poppins" font-size="14" font-weight="500" fill="#2D3436">
+                    <tspan x="72.038" y="116">Répartitions du carried interest </tspan>
+                    <tspan x="87.522" y="136">entre générations d’associés</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

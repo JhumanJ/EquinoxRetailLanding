@@ -1,21 +1,32 @@
 <template>
-  <div id="app">
-    <Nav></Nav>
-    <router-view/>
-  </div>
+    <div id="app">
+        <Navbar :initialized-in-white="$route.path !== '/'"/>
+        <div id="app-content">
+            <router-view/>
+        </div>
+        <Subscribe/>
+        <Footer/>
+        <Scroller/>
+    </div>
 </template>
 
 <script>
-    import Nav from '@/components/Layout/Nav.vue';
+    import Footer from './components/Layout/Footer'
+    import Scroller from './components/Layout/Scroller'
+    import Navbar from './components/Layout/Navbar'
+    import Subscribe from './components/Home/Subscribe'
 
     export default {
         name: 'App',
         components: {
-            Nav,
-        },
-    };
+            Subscribe,
+            Navbar,
+            Scroller,
+            Footer
+        }
+    }
 </script>
 
 
-<style lang="scss">
+<style scoped lang="scss">
 </style>

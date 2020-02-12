@@ -8,6 +8,7 @@ module.exports = {
         loaderOptions: {
             sass: {
                 prependData: `
+                    @import "@/styles/theme.scss";
                     @import "@/styles/_variables.scss";
                     @import "@/styles/general.scss";
                     @import "@/../node_modules/bootstrap/scss/_mixins.scss";

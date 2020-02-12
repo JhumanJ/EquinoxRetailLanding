@@ -1,13 +1,13 @@
 <template>
-    <div id="hero-home" class="position-relative gradient-half-purple-v5 z-index-2 overflow-hidden">
-        <div class="container mt-7">
+    <div id="hero-home" class="position-relative gradient z-index-2 overflow-hidden mt-10">
+        <div class="container mt-6">
             <!-- Title -->
-            <div class="w-md-80 w-lg-70 text-center mx-md-auto mb-9">
+            <div class="w-md-100 text-center mx-md-auto">
                 <h1 class="display-4 font-size-md-down-5 text-white hero-title">
-                    <strong class="font-weight-semi-bold">7 raisons d'investir</strong>
+                    <strong class="font-weight-semi-bold">9 raisons d'investir</strong>
                     <br>
-                    <span class="sub-title">
-                        dans un fond de private equity <strong>Equinox</strong>
+                    <span class="font-weight-medium">
+                        dans un fond de private equity <u>Equinox</u>
                     </span>
                 </h1>
             </div>
@@ -23,13 +23,12 @@
         </figure>
         <!-- End SVG Bottom Shape -->
 
-        <div class="card-container pb-4">
-            <a href="#" v-scroll-to="reason.target" class="card card-reason mt-3 mx-2 border-0 shadow-sm" v-for="(reason, index) in reasons"
-                 :key="reason.title">
-                <div class="card-body text-center">
-                    <p class="title">
-                        {{reason.title}}
-                    </p>
+        <div class="card-container mt-6 pb-5">
+            <a href="#" v-scroll-to="reason.target" class="card card-reason mx-2 my-2 border-0 shadow-sm"
+               v-for="(reason, index) in reasons"
+               :key="reason.title">
+                <div class="card-body d-flex align-items-center">
+                    <span class="font-size-20 font-weight-bolder text-color-dark text-center">{{reason.title}}</span>
                 </div>
 
                 <div class="index-bg">
@@ -49,7 +48,7 @@
             return {
                 reasons: [
                     {
-                        title: "Une espérance de rendement optimale",
+                        title: "Une espérance de rendement exceptionnelle",
                         target: "#roi-block"
                     },
                     {
@@ -57,52 +56,50 @@
                         target: "#risks-block"
                     },
                     {
+                        title: "Une équipe d'investissement chevronné",
+                        target: "#team-block"
+                    },
+                    {
                         title: "Une sélection des meilleurs fonds mondiaux",
-                        target: "#roi-block"
+                        target: "#selection-block"
                     },
                     {
-                        title: "La confiance de grands noms de la gestion de fortune",
-                        target: "#roi-block"
+                        title: "Financer les plus belles sociétés ",
+                        target: "#invest-block"
                     },
                     {
-                        title: "Le soutien d’investisseurs de premier plan",
-                        target: "#roi-block"
-                    },
-                    {
-                        title: "Financer l’économie réelle",
-                        target: "#roi-block"
+                        title: "Un investissement responsable",
+                        target: "#responsibility-block"
                     },
                     {
                         title: "Investir facilement et en toute transparence",
-                        target: "#roi-block"
-                    }
+                        target: "#transparency-block"
+                    },
+                    {
+                        title: "La confiance des plus grands noms de la gestion de fortune",
+                        target: "#trust-block"
+                    },
+                    {
+                        title: "Le soutien d’investisseurs de premier plan",
+                        target: "#support-block"
+                    },
                 ]
             }
         }
-    };
+    }
 </script>
 
 <style scoped lang="scss">
     #hero-home {
         padding-top: 74px;
 
-        &.gradient-half-purple-v5 {
-            background-image: linear-gradient(150deg, $purple-darker 0%, $purple 100%);
+        &.gradient {
+            background-image: linear-gradient(150deg, $primary 50%, $primary-lighter 100%);
             background-repeat: repeat-x;
         }
 
         .hero-title {
-            font-weight: 700;
-            @extend .poppins;
-
-            .sub-title {
-                color: $gray-900;
-                font-weight: 500;
-
-                strong {
-                    font-weight: 700;
-                }
-            }
+            font-size: 40px;
         }
 
         .card-container {
@@ -111,19 +108,12 @@
             justify-content: center;
 
             .card-reason {
-                width: 300px;
+                height: 165px;
+                width: 240px;
 
                 .card-body {
                     z-index: 1;
                     position: relative;
-                    height: 180px;
-
-                    .title {
-                        font-weight: 700;
-                        font-size: 20px;
-                        color: $gray-900;
-                        padding-top: 45px;
-                    }
                 }
 
                 .index-bg {
@@ -132,12 +122,12 @@
                     text-align: center;
                     font-size: 160px;
                     left: 0px;
-                    top: -25px;
+                    top: -35px;
                     right: 0px;
                     bottom: 0px;
                     font-weight: 700;
 
-                    color: rgba($blue, 0.1);
+                    color: rgba($primary, 0.1);
                 }
             }
         }

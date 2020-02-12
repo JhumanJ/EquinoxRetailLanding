@@ -1,9 +1,11 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
-import BestManagers from '../views/BestManagers.vue';
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+import Home from '../views/Home.vue'
+import RateBestManagers from '../views/RateBestManagers'
+import IdentifyBestManagers from '../views/IdentifyBestManagers'
+import EnsureBestManagers from '../views/EnsureBestManagers'
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 const routes = [
     {
@@ -13,18 +15,26 @@ const routes = [
         meta: {navCanBeTransparent: true}
     },
     {
-        path: '/best-managers',
-        name: 'best-managers',
-
-        component: BestManagers,
-
+        path: '/rate-best-managers',
+        name: 'rate-best-managers',
+        component: RateBestManagers
     },
-];
+    {
+        path: '/identify-best-managers',
+        name: 'identify-best-managers',
+        component: IdentifyBestManagers
+    },
+    {
+        path: '/ensure-best-managers',
+        name: 'ensure-best-managers',
+        component: EnsureBestManagers
+    }
+]
 
 const router = new VueRouter({
     mode: 'history',
     base: process.env.BASE_URL,
-    routes,
-});
+    routes
+})
 
-export default router;
+export default router
