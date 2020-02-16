@@ -7,7 +7,7 @@
             <div class="row justify-content-center">
                 <div class="col-10">
                     <div class="px-lg-4 mb-5">
-                        <h2 class="text-center">Un niveau de risque faible</h2>
+                        <h2 class="text-center">Des risques faibles et maîtrisés</h2>
                         <p class="text-center text-color-primary font-size-18">
                             Diversifier, règle d’or de l’investissement, est aussi une exigence en private equity
                         </p>
@@ -24,7 +24,7 @@
                     <div class="row justify-content-center">
                         <div class="col text-center" v-for="(elem, key) in diversifications">
                             <button type="button"
-                                    class="btn btn-outline btn-soft-primary font-weight-semi-bold font-size-22 w-100"
+                                    class="btn mt-3 btn-outline btn-soft-primary font-weight-semi-bold font-size-22 w-100"
                                     :class="{active: selectedDiversification === key}"
                                     @click="selectedDiversification = key">
                                 {{ elem.title }}
@@ -32,7 +32,14 @@
                         </div>
                     </div>
                     <div class="row justify-content-center mt-5">
-                        <div class="col-8 text-center font-size-20" v-html="diversifications[selectedDiversification]['description']"></div>
+                        <transition name="fade" mode="out-in">
+                            <template v-for="(elem, key) in diversifications">
+                                <div class="col-8 text-center font-size-20" v-html="elem['description']"
+                                     v-if="key==selectedDiversification"
+                                    :key="key"
+                                ></div>
+                            </template>
+                        </transition>
                     </div>
                 </div>
             </div>
@@ -78,5 +85,14 @@
 <style scoped lang="scss">
     #risks-diversify {
         margin-top: 40px;
+
+        .fade-enter-active, .fade-leave-active {
+            transition: opacity .2s;
+        }
+
+        .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */
+        {
+            opacity: 0;
+        }
     }
 </style>

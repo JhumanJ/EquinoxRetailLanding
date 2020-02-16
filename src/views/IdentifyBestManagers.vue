@@ -116,19 +116,19 @@
                         </div>
                     </div>
                     <div class="col-9">
-                        <FilterBubble id="filter-bubble-1" :enabled="selectedFilter === 1" filter-number="1"
+                        <FilterBubble id="filter-bubble-1" :enabled="selectedFilter === 1" :filter-number="1"
                                       v-on:clicked="selectedFilter = 1"
                                       class="z-index-4"/>
-                        <FilterBubble id="filter-bubble-2" :enabled="selectedFilter === 2" filter-number="2"
+                        <FilterBubble id="filter-bubble-2" :enabled="selectedFilter === 2" :filter-number="2"
                                       v-on:clicked="selectedFilter = 2"
                                       class="z-index-4"/>
-                        <FilterBubble id="filter-bubble-3" :enabled="selectedFilter === 3" filter-number="3"
+                        <FilterBubble id="filter-bubble-3" :enabled="selectedFilter === 3" :filter-number="3"
                                       v-on:clicked="selectedFilter = 3"
                                       class="z-index-4"/>
-                        <FilterBubble id="filter-bubble-4" :enabled="selectedFilter === 4" filter-number="4"
+                        <FilterBubble id="filter-bubble-4" :enabled="selectedFilter === 4" :filter-number="4"
                                       v-on:clicked="selectedFilter = 4"
                                       class="z-index-4"/>
-                        <FilterBubble id="filter-bubble-5" :enabled="selectedFilter === 5" filter-number="5"
+                        <FilterBubble id="filter-bubble-5" :enabled="selectedFilter === 5" :filter-number="5"
                                       v-on:clicked="selectedFilter = 5"
                                       class="z-index-4"/>
                         <div class="row flex-nowrap">

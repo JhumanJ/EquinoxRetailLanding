@@ -6,7 +6,6 @@
                 <!-- Title -->
                 <div class="text-center w-md-60 mx-auto mb-7">
                     <h2 class="text-purple">Souscrivez à Equinox dès aujourd'hui</h2>
-                    <p>Get special offers on the latest developments from Front.</p>
                 </div>
                 <!-- End Title -->
 
@@ -15,7 +14,7 @@
                     <form class="js-validate js-form-message" novalidate="novalidate">
                         <label class="sr-only" for="subscribeSrEmail">Enter your email address</label>
                         <div class="input-group input-group-lg input-group-borderless input-group-pill shadow-sm">
-                            <input type="email" class="form-control" name="email" id="subscribeSrEmail" placeholder="Enter your email address" aria-label="Enter your email address" aria-describedby="subscribeButton" required="">
+                            <input type="email" class="form-control" name="email" id="subscribeSrEmail" placeholder="Entrez votre adresse email" aria-label="Enter your email address" aria-describedby="subscribeButton" required="">
                             <div class="input-group-append">
                                 <button class="btn btn-white text-purple" type="submit" id="subscribeButton">
                                     <span class="fas fa-paper-plane"></span>
@@ -57,7 +56,7 @@
         z-index: 0;
 
         .irregular-shape-3-0, .fill-primary {
-            fill: $purple !important;
+            fill: $blue-darker !important;
         }
 
         .content {

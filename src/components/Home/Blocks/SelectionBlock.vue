@@ -17,16 +17,16 @@
                 </div>
             </div>
             <div id="methodology" class="row justify-content-center align-items-center">
-                <div class="col-1 d-flex justify-content-center">
+                <div class="col-12 col-md-3 d-flex justify-content-center mb-5">
                     <div id="methodology-headline" class="font-size-26 font-weight-semi-bold text-center">
                         La méthodologie Equinox
                     </div>
                 </div>
-                <div class="col-11">
+                <div class="col-md-9 col-12 pl-5">
                     <div class="row">
-                        <div v-for="elem of methodology" class="col-4 methodology-element">
-                            <router-link :to="elem.link">
-                                <img :src="`img/landing/${elem.imgPath}.svg`" :alt="elem.imgPath"/>
+                        <div v-for="elem of methodology" class="col-12 col-md-4 px-0 methodology-element">
+                            <router-link :to="elem.link" @click.native="$scrollToTop">
+                                <img class="img-chevron" :src="`img/landing/${elem.imgPath}.svg`" :alt="elem.imgPath"/>
                             </router-link>
                         </div>
                     </div>
@@ -63,6 +63,11 @@
 <style scoped lang="scss">
     #methodology {
         margin-top: 60px;
+
+        .img-chevron {
+            width: 100%;
+            margin: -20px;
+        }
     }
 
     #methodology-headline {

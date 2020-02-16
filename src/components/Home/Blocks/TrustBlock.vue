@@ -21,25 +21,21 @@
                         <img class="bank-image" :class="{selected: selectedBank === 1}"
                              v-on:click="selectedBank = 1"
                              src="../../../assets/png/soc-gen.png" alt="Société Générale"/>
-                        <i class="fas fa-circle text-color-primary z-index-4" :class="{'d-none': selectedBank !== 1}"/>
                     </div>
                     <div class="anchor">
                         <img class="bank-image" :class="{selected: selectedBank === 2}"
                              v-on:click="selectedBank = 2"
                              src="../../../assets/png/lazard.png" alt="Lazard"/>
-                        <i class="fas fa-circle text-color-primary z-index-4" :class="{'d-none': selectedBank !== 2}"/>
                     </div>
                     <div class="anchor">
                         <img class="bank-image" :class="{selected: selectedBank === 3}"
                              v-on:click="selectedBank = 3"
                              src="../../../assets/png/blackrock.png" alt="Blackrock"/>
-                        <i class="fas fa-circle text-color-primary z-index-4" :class="{'d-none': selectedBank !== 3}"/>
                     </div>
                     <div class="anchor">
                         <img class="bank-image" :class="{selected: selectedBank === 4}"
                              v-on:click="selectedBank = 4"
                              src="../../../assets/png/amundi.png" alt="Amundi"/>
-                        <i class="fas fa-circle text-color-primary z-index-4" :class="{'d-none': selectedBank !== 4}"/>
                     </div>
                 </div>
                 <div class="col-8">
@@ -64,7 +60,7 @@
                                     3. Leur connaissance du marché international du private equity est reconnue.
                                 </p>
                                 <p>
-                                    4. Leurs ambitions en IT correspondent à ce que nous recherchions pour nos clients.
+                                    4. Leur ambition digitale correspond à ce que nous recherchions pour nos clients.
                                 </p>
                             </div>
                             <div :class="{'d-none': selectedBank !== 2}">
@@ -86,7 +82,7 @@
                                     3. Leur connaissance du marché international du private equity est reconnue.
                                 </p>
                                 <p>
-                                    4. Leurs ambitions en IT correspondent à ce que nous recherchions pour nos clients.
+                                    4. Leur ambition digitale correspond à ce que nous recherchions pour nos clients.
                                 </p>
                             </div>
                             <div :class="{'d-none': selectedBank !== 3}">
@@ -108,7 +104,7 @@
                                     3. Leur connaissance du marché international du private equity est reconnue.
                                 </p>
                                 <p>
-                                    4. Leurs ambitions en IT correspondent à ce que nous recherchions pour nos clients.
+                                    4. Leur ambition digitale correspond à ce que nous recherchions pour nos clients.
                                 </p>
                             </div>
                             <div :class="{'d-none': selectedBank !== 4}">
@@ -130,7 +126,7 @@
                                     3. Leur connaissance du marché international du private equity est reconnue.
                                 </p>
                                 <p>
-                                    4. Leurs ambitions en IT correspondent à ce que nous recherchions pour nos clients.
+                                    4. Leur ambition digitale correspond à ce que nous recherchions pour nos clients.
                                 </p>
                             </div>
                         </div>

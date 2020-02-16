@@ -5,6 +5,8 @@ import RateBestManagers from '../views/RateBestManagers'
 import IdentifyBestManagers from '../views/IdentifyBestManagers'
 import EnsureBestManagers from '../views/EnsureBestManagers'
 
+Vue.prototype.$scrollToTop = () => window.scrollTo(0,0);
+
 Vue.use(VueRouter)
 
 const routes = [

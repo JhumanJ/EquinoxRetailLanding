@@ -39,6 +39,9 @@
             RoIBlock,
             RisksBlock,
             TeamBlock
+        },
+        mounted() {
+            this.$scrollToTop();
         }
     }
 </script>

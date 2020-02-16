@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="row">
-                <ToKnowMore title="À propose d'Equinox" :elements="knowMore"></ToKnowMore>
+                <ToKnowMore title="À propos d'Equinox" :elements="knowMore"></ToKnowMore>
             </div>
         </div>
     </div>
@@ -62,13 +62,13 @@
                         imgPath: "person.png",
                         name: "M. X",
                         title: "Expérience M. X",
-                        experience: 12
+                        experience: 15
                     },
                     {
                         imgPath: "person.png",
                         name: "Mme Y",
                         title: "Expérience Mme Y",
-                        experience: 14
+                        experience: 17
                     }
                 ],
                 knowMore: [

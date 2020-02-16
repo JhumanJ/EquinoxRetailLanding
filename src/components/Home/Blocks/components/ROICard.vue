@@ -31,21 +31,25 @@
             </div>
         </header>
         <div class="card-body pt-0 px-5 pb-5 d-flex flex-column justify-content-end">
-            <div class="tag text-center" :class="{'d-none': flipped}">
-                <button v-if="multiplier" type="button"
-                        class="btn btn-pill btn-sm btn-soft-success px-1 py-1">
-                    <i class="fas fa-caret-up"></i> {{multiplier}}
-                </button>
-            </div>
-            <div class="return text-center" :class="{'d-none': flipped}">
-                <h4 class="h3 mb-0 font-weight-bold">{{percentage}}</h4>
-                <p>Retours futurs nets</p>
-            </div>
-            <div class="back-text flex-grow-1" :class="{'d-none': !flipped}">
-                <div class="mt-5">
-                    <div class="text-center text-color-gray">{{backText}}</div>
+            <transition name="content" mode="out-in">
+                <div class="front" v-if="!flipped" key="front">
+                    <div class="tag text-center">
+                        <button v-if="multiplier" type="button"
+                                class="btn btn-pill btn-sm btn-soft-success px-1 py-1">
+                            <i class="fas fa-caret-up"></i> {{multiplier}}
+                        </button>
+                    </div>
+                    <div class="return text-center">
+                        <h4 class="h3 mb-0 font-weight-bold">{{percentage}}</h4>
+                        <p>Retours futurs nets</p>
+                    </div>
                 </div>
-            </div>
+                <div class="back-text flex-grow-1" v-else key="back">
+                    <div class="mt-5">
+                        <div class="text-center font-weight-bold text-color-gray">{{backText}}</div>
+                    </div>
+                </div>
+            </transition>
             <div class="more-details text-center" v-on:click="flipped = !flipped">
                 <FontAwsomeCircledIcon icon-class="sync"/>
             </div>
@@ -112,5 +116,19 @@
     .back-text {
         flex-grow: 1;
     }
+
+    .card-body {
+        .content-enter,
+        .content-leave-to {
+            opacity: 0;
+            transform: rotateY(90deg);
+        }
+
+        .content-enter-active,
+        .content-leave-active {
+            transition: all 0.2s;
+        }
+    }
+
 
 </style>

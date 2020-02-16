@@ -21,10 +21,9 @@
                 <div class="col-6">
                     <div class="card shadow-sm">
                         <div class="card-body text-center">
-                            <p class="my-4 text-color-dark font-size-22 font-weight-bold">
+                            <p class="my-4 text-color-dark font-size-22 font-weight-bold mb-0">
                                 Equinox, le private equity <span class="text-color-primary">100% digital</span>
                             </p>
-                            <router-link to="" id="discover" class="btn btn-pill btn-primary">Découvrir</router-link>
                         </div>
                     </div>
                 </div>

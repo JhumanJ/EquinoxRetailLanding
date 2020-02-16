@@ -11,7 +11,7 @@
                         l’appréciation requiert une connaissance intime du marché du private equity.</p>
                 </BestManagersPageHeader>
                 <div id="criteria" class="my-10 d-flex justify-content-center align-items-middle">
-                    <img class="w-75" src="../assets/svg/equinox/equinox-manager-criteria.svg" alt="Equinox manager criteria"/>
+                    <img class="w-90" src="img/landing/manager-scorecard.png" alt="Equinox manager criteria"/>
                 </div>
             </div>
         </div>

@@ -1,5 +1,9 @@
 <template>
-    <a vue-scroll-to="#" href="#" id="scroller" :class="{'d-none': !showButton}">
+    <a vue-scroll-to="{
+         el: '#home',
+         duration: 500,
+         easing: 'linear'
+     }" href="#" id="scroller" :class="{'d-none': !showButton}">
         <FontAwsomeCircledIcon icon-class="arrow-up"/>
     </a>
 </template>
@@ -13,7 +17,6 @@
         data() {
             return {
                 showButton: false,
-                lastScrollPosition: 0
             }
         },
         mounted() {
@@ -21,11 +24,9 @@
         },
         methods: {
             onScroll() {
-                const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop
+                const currentScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
                 this.showButton = currentScrollPosition >= 50;
-
-                this.lastScrollPosition = currentScrollPosition
             }
         }
     }

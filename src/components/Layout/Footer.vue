@@ -21,27 +21,27 @@
                 </div>
 
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 mb-md-0">
-                    <h4 class="h6 font-weight-semi-bold">Account</h4>
+                    <h4 class="h6 font-weight-semi-bold">Private Equity</h4>
 
                     <!-- List Group -->
                     <ul class="list-group list-group-flush list-group-borderless mb-0">
-                        <li><a class="list-group-item list-group-item-action" href="../account/dashboard.html">Account</a></li>
-                        <li><a class="list-group-item list-group-item-action" href="../account/my-tasks.html">My tasks</a></li>
-                        <li><a class="list-group-item list-group-item-action" href="../account/projects.html">Projects</a></li>
-                        <li><a class="list-group-item list-group-item-action" href="../account/invite-friends.html">Invite friends</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../account/dashboard.html">Définition</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../account/my-tasks.html">Risques</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../account/projects.html">Fiscalité</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../account/invite-friends.html">Liquidité</a></li>
                     </ul>
                     <!-- End List Group -->
                 </div>
 
                 <div class="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 mb-md-0">
-                    <h4 class="h6 font-weight-semi-bold">Company</h4>
+                    <h4 class="h6 font-weight-semi-bold">Equinox</h4>
 
                     <!-- List Group -->
                     <ul class="list-group list-group-flush list-group-borderless mb-0">
-                        <li><a class="list-group-item list-group-item-action" href="../pages/about-agency.html">About</a></li>
-                        <li><a class="list-group-item list-group-item-action" href="../pages/services-agency.html">Services</a></li>
-                        <li><a class="list-group-item list-group-item-action" href="../pages/careers.html">Careers</a></li>
-                        <li><a class="list-group-item list-group-item-action" href="../blog/grid-right-sidebar.html">Blog</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../pages/about-agency.html">L'histoire</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../pages/services-agency.html">L'équipe</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../pages/careers.html">Partenaires</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../blog/grid-right-sidebar.html">Contact</a></li>
                     </ul>
                     <!-- End List Group -->
                 </div>
@@ -51,10 +51,9 @@
 
                     <!-- List Group -->
                     <ul class="list-group list-group-flush list-group-borderless mb-0">
-                        <li><a class="list-group-item list-group-item-action" href="../pages/contacts-agency.html">Contacts</a></li>
-                        <li><a class="list-group-item list-group-item-action" href="../pages/faq.html">Help</a></li>
-                        <li><a class="list-group-item list-group-item-action" href="../pages/terms.html">Terms</a></li>
-                        <li><a class="list-group-item list-group-item-action" href="../pages/privacy.html">Privacy</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../pages/contacts-agency.html">Presse</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../pages/faq.html">Souscrire</a></li>
+                        <li><a class="list-group-item list-group-item-action" href="../pages/terms.html">CGU</a></li>
                     </ul>
                     <!-- End List Group -->
                 </div>
@@ -65,11 +64,11 @@
                     <!-- Address -->
                     <address>
                         <ul class="list-group list-group-flush list-group-borderless mb-0">
-                            <li class="list-group-item">+1 (062) 109-9222</li>
+                            <li class="list-group-item">+33 6 32 32 12 32</li>
                             <li class="list-group-item">
-                                <a class="text-purple" href="mailto:support@htmlstream.com">contact@equinox.com</a>
+                                <a class="text-blue" href="mailto:support@htmlstream.com">contact@equinox.com</a>
                             </li>
-                            <li class="list-group-item">153 Williamson Plaza, Maggieberg, MT 09514</li>
+                            <li class="list-group-item">Paris, France</li>
                         </ul>
                     </address>
                     <!-- End Address -->
@@ -85,22 +84,22 @@
             <!-- Social Networks -->
             <ul class="list-inline mb-0">
                 <li class="list-inline-item">
-                    <a class="btn btn-sm btn-icon btn-soft-secondary btn-bg-transparent" href="#">
+                    <a class="btn btn-sm btn-icon btn-soft-primary btn-bg-transparent" href="#">
                         <span class="fab fa-facebook-f btn-icon__inner"></span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn btn-sm btn-icon btn-soft-secondary btn-bg-transparent" href="#">
+                    <a class="btn btn-sm btn-icon btn-soft-primary btn-bg-transparent" href="#">
                         <span class="fab fa-google btn-icon__inner"></span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn btn-sm btn-icon btn-soft-secondary btn-bg-transparent" href="#">
+                    <a class="btn btn-sm btn-icon btn-soft-primary btn-bg-transparent" href="#">
                         <span class="fab fa-twitter btn-icon__inner"></span>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a class="btn btn-sm btn-icon btn-soft-secondary btn-bg-transparent" href="#">
+                    <a class="btn btn-sm btn-icon btn-soft-primary btn-bg-transparent" href="#">
                         <span class="fab fa-github btn-icon__inner"></span>
                     </a>
                 </li>

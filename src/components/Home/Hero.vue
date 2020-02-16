@@ -56,7 +56,7 @@
                         target: "#risks-block"
                     },
                     {
-                        title: "Une équipe d'investissement chevronné",
+                        title: "Une équipe d'investissement chevronnée",
                         target: "#team-block"
                     },
                     {
