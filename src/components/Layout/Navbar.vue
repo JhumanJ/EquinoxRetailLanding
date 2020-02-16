@@ -220,6 +220,7 @@
 
         .dropdown-menu {
             width: 992px;
+            margin-left: -692px;
 
             .dropdown-header {
                 color: $dark;
